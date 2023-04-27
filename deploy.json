@@ -1,8 +1,8 @@
 {
   "apps": [
     {
-      "name": "react-test-aws",
-      "script": "serve ./build -s -l 4092"
+      "name": "react-test-aws2",
+      "script": "serve ./build -s -l 4091"
     }
   ]
 }
