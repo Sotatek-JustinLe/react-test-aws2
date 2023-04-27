@@ -21,7 +21,7 @@ function App() {
   console.log(1);
   return (
     <div className="App">
-      <h1>Hello Sotatek</h1>
+      <h1>Hello Iris Nguyen</h1>
       <header className="App-header">
         <h1>Hello</h1>
         <h1>env: {process.env.REACT_APP_HELLO}</h1>
