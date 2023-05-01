@@ -1,0 +1,19 @@
+name: Test self hosted runner
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: self-hosted
+    steps:
+      - name: Build and Deploy
+        run: |
+          cd /home/sotatek/test/react-test-aws2
+          git pull origin dev
+          yarn
+          yarn build
+          pm2 restart deploy.json
